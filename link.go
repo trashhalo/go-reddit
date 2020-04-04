@@ -20,8 +20,8 @@ type Link struct {
 	BannedBy            string        `json:"banned_by"`
 	Clicked             bool          `json:"clicked"`
 	ContestMode         bool          `json:"contest_mode"`
-	Created             int           `json:"created"`
-	CreatedUtc          int           `json:"created_utc"`
+	Created             float64       `json:"created"`
+	CreatedUtc          float64       `json:"created_utc"`
 	Distinguished       string        `json:"distinguished"`
 	Domain              string        `json:"domain"`
 	Downs               int           `json:"downs"`
